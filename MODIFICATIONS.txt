@@ -1,0 +1,18 @@
+MODIFICATIONS LOG for FFmpeg Binary
+Date: April 2026
+Base Software: FFmpeg (GPLv3)
+
+The file NS.exe is a modified version of the original FFmpeg binary. 
+The following changes were applied to produce this version:
+
+1. METADATA & ICON UPDATE
+- Process: The original metadata and icon were replaced with Ui Multisoft and Natural Studio branding.
+- Tool: rcedit-x64.exe
+- Assets Used: 'Natural Studio.ico' (included in this repository).
+
+2. SUBSYSTEM MODIFICATION
+- Process: The executable subsystem was changed from 'Windows Console' to 'Windows GUI'.
+- Purpose: To prevent a console window from appearing when called by the main application.
+- Tool: CFF Explorer.
+
+The original FFmpeg source code used for this version is included in this repository as FFmpeg-6d60cc7baf662b64e3c50f95826dead58cf8e839.
